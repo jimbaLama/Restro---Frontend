@@ -3,10 +3,10 @@ import { featuresData } from "../data/data";
 import { ChefHat, Leaf, Heart } from "lucide-react";
 
 const IconMap = {
-    ChefHat,
-    Leaf,
-    Heart
-}
+  ChefHat,
+  Leaf,
+  Heart,
+};
 
 const Features = () => {
   return (
@@ -30,17 +30,21 @@ const Features = () => {
           {featuresData.map((item, index) => {
             const IconComponent = IconMap[item.icon];
             return (
-                <Animated key={index} y={150} delay={index * 0.15} className='flex items-start gap-4 text-left'>
-                    {IconComponent && (
-                        <IconComponent className='text-orange-500 size-5 shrink-0 mt-0.5'/>
-                    )}
-                    <div>
-                        <h3 className="text-xl mb-2">{item.title}</h3>
-                        <p className="text-zinc-600 max-w-sm">{item.description}</p>
-                    </div>
-
-                </Animated>
-            )
+              <Animated
+                key={index}
+                y={150}
+                delay={index * 0.15}
+                className="flex items-start gap-4 text-left"
+              >
+                {IconComponent && (
+                  <IconComponent className="text-orange-500 size-5 shrink-0 mt-0.5" />
+                )}
+                <div>
+                  <h3 className="text-xl mb-2">{item.title}</h3>
+                  <p className="text-zinc-600 max-w-sm">{item.description}</p>
+                </div>
+              </Animated>
+            );
           })}
         </div>
 
