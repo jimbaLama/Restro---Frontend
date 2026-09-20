@@ -143,7 +143,7 @@ export const testimonials = [
         avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=120&h=120&auto=format&fit=crop"
     },
     {
-        rating: 5,
+        rating: 4,
         review: "The flavors were authentic, every dish was perfectly prepared, and the presentation made the experience even more enjoyable.",
         name: "Daniel Kim",
         location: "Seoul, South Korea",
@@ -157,7 +157,7 @@ export const testimonials = [
         avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=120&h=120&auto=format&fit=crop"
     },
     {
-        rating: 5,
+        rating: 3,
         review: "Great food, attentive staff, and a cozy ambiance. Every visit has been memorable, and I highly recommend it.",
         name: "Daniel Wong",
         location: "Sydney, Australia",
