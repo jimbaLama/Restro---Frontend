@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from './components/Navbar'
 import HeroSection from './sections/HeroSection'
 import About from './sections/About'
@@ -9,6 +8,7 @@ import BookingProcess from './sections/BookingProcess'
 import Timing from './sections/Timing'
 import TestimonialSection from './sections/TestimonialSection'
 import FAQ from './sections/FAQ'
+import CTA from './sections/CTA'
 
 const App = () => {
   return (
@@ -23,6 +23,7 @@ const App = () => {
       <Timing />
       <TestimonialSection />
       <FAQ />
+      <CTA />
     </>
   )
 }
